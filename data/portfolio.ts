@@ -14,7 +14,7 @@ export const profile = {
 };
 
 export const stats = [
-  { value: "3", label: "Key projects built" },
+  { value: "4", label: "Projects built" },
   { value: "2", label: "Solo end-to-end projects" },
   { value: "10", label: "Developers on my team project" },
   { value: "2027", label: "Expected HNDIT completion" },
@@ -66,7 +66,7 @@ export const featuredProject = {
   link: "https://github.com/shashikaNis",
 };
 
-export type ProjectIcon = "pin" | "calendar";
+export type ProjectIcon = "pin" | "calendar" | "globe";
 
 export const projects: { title: string; meta: string; icon: ProjectIcon; description: string; tags: string[] }[] = [
   {
@@ -84,6 +84,14 @@ export const projects: { title: string; meta: string; icon: ProjectIcon; descrip
     description:
       "An app that tracks household product expiry dates. I built the Android screens (registration/login, add/edit product, home list) in Kotlin with Firebase Auth and Firestore. I also wrote scheduled Cloud Functions in TypeScript that run three times a day and send personalised FCM push alerts for products expiring within a week.",
     tags: ["Kotlin", "View Binding", "Firebase", "Cloud Functions", "TypeScript", "Node.js"],
+  },
+  {
+    title: "Personal Portfolio Website",
+    meta: "Personal · This site",
+    icon: "globe",
+    description:
+      "The site you're looking at: a responsive single-page portfolio built with Next.js (App Router) and TypeScript. It has a dark/light theme that remembers your choice, scroll-reveal animations and optimised images and fonts. All content is driven from a single data file, and it's deployed on Vercel with automatic deploys from GitHub.",
+    tags: ["Next.js", "React", "TypeScript", "CSS", "Vercel", "Git & GitHub"],
   },
 ];
 
