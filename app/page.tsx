@@ -18,12 +18,11 @@ export default function Home() {
                 <span className="dot" /> {profile.availability}
               </div>
               <h1>
-                Hi, I&apos;m {profile.shortName}.<br />I build <span className="accent">mobile apps</span> that ship.
+                Hi, I&apos;m {profile.shortName}.<br />I&apos;m a <span className="accent">full-stack</span> developer.
               </h1>
               <p className="lead">
-                HNDIT undergraduate at SLIATE and Flutter mobile app developer from Sri Lanka. I take apps end to end:
-                Figma designs, implementation, REST API integration and testing, with hands-on experience in native
-                Android, Firebase and NestJS.
+                HNDIT undergraduate at SLIATE from Sri Lanka, building web and mobile apps end to end: Figma designs,
+                Flutter and Android apps, React / Next.js front ends, NestJS and Firebase back ends, and testing.
               </p>
               <div className="btns">
                 <a href="#projects" className="btn btn-primary">
@@ -60,7 +59,7 @@ export default function Home() {
                 &nbsp;&nbsp;based: <b>&quot;Sri Lanka 🇱🇰&quot;</b>,
               </div>
               <div className="code-line mono">
-                &nbsp;&nbsp;stack: [<b>&quot;Flutter&quot;</b>, <b>&quot;Android&quot;</b>, <b>&quot;Firebase&quot;</b>]
+                &nbsp;&nbsp;stack: [<b>&quot;Flutter&quot;</b>, <b>&quot;Next.js&quot;</b>, <b>&quot;NestJS&quot;</b>]
               </div>
               <div className="code-line mono">{"};"}</div>
             </div>
@@ -216,7 +215,7 @@ export default function Home() {
               <div className="section-label mono">05 · Contact</div>
               <h2 className="section-title">Let&apos;s work together</h2>
               <p>
-                I&apos;m open to paid internships and junior mobile developer roles. The quickest way to reach me is by
+                I&apos;m open to paid internships and junior full-stack developer roles. The quickest way to reach me is by
                 email.
               </p>
               <div className="btns">

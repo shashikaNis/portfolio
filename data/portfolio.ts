@@ -4,7 +4,7 @@ export const profile = {
   name: "Shashika Kulasekara",
   fullName: "Shashika Nisansala Kulasekara",
   shortName: "Shashika",
-  role: "Mobile App Developer",
+  role: "Full-Stack Developer",
   email: "sashikanisansala845@gmail.com",
   github: "https://github.com/shashikaNis",
   linkedin: "https://www.linkedin.com/in/sashika-nisansala-0a1055323/",
@@ -99,7 +99,7 @@ export const education = [
   {
     date: "Now",
     title: "Seeking an industrial training placement",
-    org: "Paid internship · Mobile / Flutter / Android",
+    org: "Paid internship · Full-stack / Mobile / Web",
     text: "Academic coursework is complete, and I'm looking for a placement to complete my mandatory industrial training.",
   },
   {

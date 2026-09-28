@@ -12,12 +12,12 @@ const siteUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Shashika Kulasekara · Mobile Developer",
+  title: "Shashika Kulasekara · Full-Stack Developer",
   description:
-    "Portfolio of Shashika Kulasekara, an HNDIT undergraduate at SLIATE and Flutter / Android mobile app developer from Sri Lanka.",
+    "Portfolio of Shashika Kulasekara, an HNDIT undergraduate at SLIATE and full-stack developer (Flutter, Android, Next.js, NestJS) from Sri Lanka.",
   openGraph: {
-    title: "Shashika Kulasekara · Mobile Developer",
-    description: "Flutter & Android mobile app developer from Sri Lanka.",
+    title: "Shashika Kulasekara · Full-Stack Developer",
+    description: "Full-stack web & mobile developer from Sri Lanka.",
     images: ["/profile.webp"],
   },
 };
